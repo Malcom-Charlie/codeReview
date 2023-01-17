@@ -1,0 +1,88 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+   }
+
+   body {
+    font-family: cursive;
+   }
+
+   a {
+    text-decoration: none;
+   }
+   
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1F2937;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+
+   #home {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 250px;
+    background-color: #1F2937;
+    color: #fff;
+   }
+
+  .info-box {
+   align-self: center;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 10px;
+   margin: 10px;
+   justify-content: center
+}
+
+.flex-container div {
+   display: inline-flex;
+   align-self: center;
+   padding: 10px;
+   margin: 20px;
+   height: 100px;    
+    
+  }
+
+   #contact {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    margin: 60px;
+    padding: 40px ;
+    width: 52%;
+    display: flex;
+    border-width: 10px;
+    flex-direction: row;
+    /* flex-wrap: wrap;  */
+    justify-content: space-between;    
+   }
+
+   footer {
+       background-color: #1F2937;
+       text-align: center;
+       color: #fff;
+   }
